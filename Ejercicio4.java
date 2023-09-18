@@ -21,7 +21,7 @@ public class Ejercicio4 {
         System.out.print("Ingrese monto en Soles: ");
         double monto=Double.parseDouble(br.readLine());
         
-        System.out.print("Monto convertido a pesetas: "+Math.round((monto/tipoCambio)*100.0)/100.0);
+        System.out.print("Monto convertido a euros: "+Math.round((monto/tipoCambio)*100.0)/100.0);
         
         
         
